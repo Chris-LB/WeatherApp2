@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/button_color.xml" value="0.3296875" />
         <entry key="app/src/main/res/layout/activity_forcast.xml" value="0.4904891304347826" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.4904891304347826" />
         <entry key="app/src/main/res/layout/forcast_data.xml" value="0.4904891304347826" />
