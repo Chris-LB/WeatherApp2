@@ -12,9 +12,11 @@
         android:theme="@style/Theme.Weatherapp">
         <activity
             android:name=".ForcastActivity"
+            android:label="@string/forcast_activity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:label="@string/main_activity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
