@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.weatherapp">
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+        android:name=".WeatherApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -12,12 +14,12 @@
         android:theme="@style/Theme.Weatherapp">
         <activity
             android:name=".ForcastActivity"
-            android:label="@string/forcast_activity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="@string/forcast_activity" />
         <activity
             android:name=".MainActivity"
-            android:label="@string/main_activity"
-            android:exported="true">
+            android:exported="true"
+            android:label="@string/main_activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
